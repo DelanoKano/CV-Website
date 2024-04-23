@@ -87,3 +87,27 @@ button:hover {
     border-width: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.info--me {
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+    margin-left: 2em;
+    width: 306px;
+    height: auto;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dancer {
+    width: 20vw;
+}
