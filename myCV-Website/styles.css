@@ -104,10 +104,6 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#dancer {
-    width: 20vw;
-}
-
 .wrapper {
     width: 100%;
     height: 80vh;
@@ -124,7 +120,7 @@ button:hover {
 }
 
 .card {
-    width: 200px;
+    width: 230px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -138,7 +134,8 @@ button:hover {
 }
 
 .card > .row {
-    color: rgb(110, 109, 109);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: nowrap;
 }
@@ -168,8 +165,8 @@ button:hover {
 }
 
 .description p {
-    color: #bababa;
-    padding-top: 5px;
+    color: #fffefe;
+    padding-top: 15px;
 }
 
 .description h4 {
@@ -190,14 +187,19 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('./Images/img1.jpg');
+    background-image: url('Images/Structure.avif');
 }
 .card[for="c2"] {
-    background-image: url('./Images/img2.jpg');
+    background-image: url('Images/Work\ Hard.avif');
+    background-size: 500px;
+    background-position-x: 56px;
 }
 .card[for="c3"] {
-    background-image: url('./Images/img3.jpg');
+    background-image: url('./Images/tenecious.avif');
 }
 .card[for="c4"] {
-    background-image: url('Images/img4.jpg');
+    background-image: url('Images/Creative.avif');
+    background-size: 500px;
+    background-position-x: 56px;
+    background-position-y: -200px;
 }
