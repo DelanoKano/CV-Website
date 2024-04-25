@@ -243,11 +243,14 @@ input:checked + label .description {
   background-position-x: -300px;
 }
 .card[for="c7"] {
-  background-image: url("./Images/");
+  background-image: url("./Images/Schermafbeelding\ 2024-04-25\ 230620.png");
+  background-size: 100em;
+  background-position-y: -500px;
 }
 .card[for="c8"] {
-  background-image: url("./Images/");
+  background-image: url("./Images/Schermafbeelding\ 2024-04-25\ 231809.png");
 }
 .card[for="c9"] {
-  background-image: url("./Images/");
+  background-image: url("./Images/java.png");
+  background-position-x: -20px;
 }
